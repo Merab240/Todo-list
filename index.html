@@ -10,8 +10,34 @@
   <input type="text" id="taskInput" placeholder="Add a new task">
 <button id="add-btn">Add Task</button>
 <ul id="todo-list">
-    
+  
 </ul>
+<p>Click button to show date</p>
+<button onclick="displayDate()">The time is</button>
+<p id="demo"></p>
+
+Name: <input type="text" id="fName" oninput="upperCase()">
+<button id="submit"> Submit</button><br><br>
+
+<form class="form" id="form1">
+Full Name: <input type="text" id="name" placeholder="Full Names">
+<span id="name_error"></span>
+<br><br>
+Email: <input type="text" id="email" placeholder="example@gmail.com">
+<span id="email_error"></span>
+<br><br>
+Password: <input type="password" id="password" placeholder="******">
+<span id="password_error"></span>
+<br><br>
+Confirm Password: <input type="password" id="password2" placeholder="******">
+<span id="password2_error"></span>
+<br><br>
+<button type="submit">Submit</button>
+
+
+</form>
+
+
 <script src="todo.js"></script>
 </body>
 </html>
